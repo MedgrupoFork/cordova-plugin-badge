@@ -20,12 +20,6 @@ repositories {
     mavenCentral()
 }
 
-if (!project.ext.has('appShortcutBadgerVersion')) {
-    ext.appShortcutBadgerVersion = '1.1.22'
-}
-
-if (!project.ext.has('appShortcutBadgerCustom')) {
-    dependencies {
-        implementation 'com.github.MedgrupoFork:ShortcutBadger:v1.0.0'
-    }
+dependencies {
+    implementation 'com.github.MedgrupoFork:ShortcutBadger:v1.0.0'
 }
