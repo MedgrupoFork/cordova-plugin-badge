@@ -17,7 +17,6 @@ package de.appplant.cordova.plugin.badge
  */
 
 repositories {
-    mavenCentral()
     maven { url "https://jitpack.io" }
 }
 
